@@ -1,4 +1,20 @@
-# image_placeholder_with_jest_typescript
+# learn_vue_tdd
+Learning how to TDD with a Vue application with Jest and VueTestUtils.
+
+Special participation of Typescript.
+
+Basically, the application is an image placeholder from [lorem flickr](https://loremflickr.com/). We will be covering tests with:
+
+- forming an square image
+- passing width, height and category to the component
+- omitting the category prop
+- omitting the category and height props
+- omitting the height prop
+
+## To use:
+Run the test suit with `test:util`.
+
+Access `main.ts` and play around with the values informed in the `tests\unit\imageplaceholder.spec.ts`.
 
 ## Project setup
 ```
